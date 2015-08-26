@@ -1,0 +1,28 @@
+.test {
+  color: purple;
+}
+
+p {
+  color: #345678;
+}
+
+div p {
+  color: red;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search {
+    padding-left: 16px;
+}
+
+.search::after{
+  content: "";
+  background-url: url(/icons/search.png);
+}
+
+.my-div {
+  color: red;
+}

@@ -1,0 +1,23 @@
+@import "text.css";
+
+$blue: #345678;
+
+p {
+  color: $blue;
+}
+
+div {
+  p {
+    color: red;
+    display: flex;
+  }
+}
+
+
+@define-mixin hello {
+  color: red;
+}
+
+.my-div {
+  @mixin hello;
+}

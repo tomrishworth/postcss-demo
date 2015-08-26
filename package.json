@@ -1,0 +1,14 @@
+{
+  "name": "postcss-demo",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "postcss-import": "^7.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-mixins": "^1.0.0",
+    "postcss-simple-vars": "^1.0.0"
+  }
+}
